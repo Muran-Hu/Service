@@ -11,3 +11,6 @@ Service 详解
 
 ## 注意：
 #### 将 android:exported 属性设为 false，表示不允许其他应用程序启动本应用的组件，即便是显式 Intent 也不行（even when using an explicit intent）。这可以防止其他应用程序启动您的 Service 组件。
+
+## 附：Service 生命周期
+![示例图片](https://github.com/Muran-Hu/Service/blob/master/service_lifecircle.png)
